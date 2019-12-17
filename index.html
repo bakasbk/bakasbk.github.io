@@ -16,14 +16,15 @@ description: "Man proposes,God disposes."
         {% endif %}
         <div class="post-content-preview">
             {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:300 }}
+            {{ post.content | strip_html | truncate:300 }}
             {% else %}
-                {{ post.content | strip_html | truncate:200 }}
+            {{ post.content | strip_html | truncate:200 }}
             {% endif %}
         </div>
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} 发表于 {{ post.date | date: "%B %-d, %Y"
+        }}
     </p>
 </div>
 <hr>
@@ -34,12 +35,12 @@ description: "Man proposes,God disposes."
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 上一页</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &rarr;</a>
     </li>
     {% endif %}
 </ul>
