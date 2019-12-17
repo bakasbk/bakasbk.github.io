@@ -13,8 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     Baka_sbk
-zhihu_username:     某某K
+weibo_username:     bakasbk
+zhihu_username:     sun-bo-kai-23
 github_username:    bakasbk
 #twitter_username:   huxpro
 #facebook_username:  huxpro
