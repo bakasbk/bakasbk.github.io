@@ -11,11 +11,11 @@ tags:
 ### 添加依赖
 
 ```xml
-		 <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.15</version>
-        </dependency>
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>1.2.15</version>
+</dependency>
 ```
 
 ### 实例化
@@ -26,14 +26,14 @@ ObjectMapper objectMapper = new ObjectMapper();
 ### 转换
 ***JAVA对象转JSON***
 ```java
-	//JAVA对象转JSON
-    objectMapping.writeValueAsString(obj)
+//JAVA对象转JSON
+objectMapping.writeValueAsString(obj)
 ```
 
 ***JSON转JAVA对象***
 ```java
-	//JAVA对象转JSON
-    objectMapping.readValue(str, ojb.class)
+//JAVA对象转JSON
+objectMapping.readValue(str, ojb.class)
 ```
 
 ### 注意事项：
