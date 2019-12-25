@@ -6,8 +6,8 @@ author: "baka_sbk"
 header-style: text
 tags:
   - CentOS
-  - Operation and maintenance
-  - Notes
+  - Operation and maintenance运维
+  - Notes笔记
 ---
 ### 登陆前需重置密码
 先在**腾讯云**→**控制台**→**实例** →**密码/密钥**→选择**重置密码**，然后设置一个root密码，因为是云服务器，所以务必设置**高强度密码**。

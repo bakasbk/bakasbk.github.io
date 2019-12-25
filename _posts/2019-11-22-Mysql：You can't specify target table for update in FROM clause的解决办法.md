@@ -6,7 +6,7 @@ author: "baka_sbk"
 header-style: text
 tags:
   - Mysql
-  - Notes
+  - Notes笔记
 ---
 
 > You can't specify target table ‘表名’ for update in FROM clause
