@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "jekyll+Github搭建免费的个人博客"
-subtitle: '好吧就是纪念下第一篇文章'
+title: "使用jackson来进行json和java对象的转换"
+subtitle: ''
 author: "baka_sbk"
 header-style: text
 tags:
